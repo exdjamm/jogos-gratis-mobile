@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Jogos Gratis | Veja Seus Jogos Gratis</title>
+
+	<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&amp;family=Poppins:wght@400;600&amp;display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="./styles/page.css">
+	<link rel="stylesheet" href="./styles/content.css">
+
+	<script src="./js/main.js" defer></script>
+	<script src="./js/data-processing.js"></script>
+</head>
+<body id="page">
+	
+	<header id="page-header">
+		<div class="left">
+			<!-- Icon do site -->
+		</div>
+		<div id="search-bar">
+			<!-- Barra de pesquisa -->
+			<input type="text" name="search" id="search">
+		</div>
+		<div class="right">
+			<!-- icon de conta -->
+		</div>
+	</header>
+
+	<div id="lateral-bar">
+		<div class="bar-content">
+			<img src="https://cdn3.iconfinder.com/data/icons/social-media-2169/24/social_media_social_media_logo_steam-512.png" alt="Steam">
+			<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Epic_Games_logo.svg/882px-Epic_Games_logo.svg.png" alt="Epic Games">
+			<img src="https://pbs.twimg.com/profile_images/1212846124945428480/w1htiJ0v_400x400.png" alt="ITCH.IO">
+		</div>
+		
+	</div>
+	
+	<main>
+		<div id="content">	
+			<article class="list-games">
+				<header>
+					<h2>Jogos da epic feito pela steam</h2>
+				</header>
+				<div class="games">
+					<div class="game">
+						<div class="game-image">
+							<img src="https://cdn3.iconfinder.com/data/icons/social-media-2169/24/social_media_social_media_logo_steam-512.png" alt="steam" class="marca-dagua">
+							<img src="https://cdn1.epicgames.com/4c7117cadb714722950338f02850fd8d/offer/EGS_20XX_Batterystaple_S2-1200x1600-3a59b647af6ca43a378eaf0fce7a8ff5.jpg?h=854&resize=1&w=640" class="img" alt="Imagem do jogo">
+						</div>
+						<div class="sub-info">
+							<h3>Titulo Teste</h3>
+							<div class="game-tags">
+								<span class="tag">Teste</span>
+								<span class="tag">Teste</span>
+								<span class="tag">Teste</span>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+			</article>
+		</div>
+	</main>
+
+	<script>
+		var a = document.querySelector('.game')
+		var b = document.querySelector('.list-games')
+		for (let index = 0; index < 15; index++) {
+			a.parentNode.append(a.cloneNode(true))
+			b.parentNode.append(b.cloneNode(true))
+		}
+	</script>
+	<script src="./js/funcionalidades.js"></script>
+</body>
+</html>

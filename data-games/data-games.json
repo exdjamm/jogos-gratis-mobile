@@ -1,0 +1,57 @@
+[
+	{
+	"gameCategory": "Recentes",
+	"games":
+		[
+			{"name":"20XX",
+			"tags":["Plataforma","Roguelite"],
+			"imgSrc":"https://cdn1.epicgames.com/4c7117cadb714722950338f02850fd8d/offer/EGS_20XX_Batterystaple_S2-1200x1600-3a59b647af6ca43a378eaf0fce7a8ff5.jpg?h=854&resize=1&w=640",
+			"plataform":"epic"},
+
+			{"name":"Barony",
+			"tags":["Roguelike", "Dungeon Crawler"],
+			"imgSrc":"https://cdn1.epicgames.com/b79cdb6e07ea4ce9a82c00a0fb079ca5/offer/EGS_Barony_TurningWheelLLC_S2-1200x1600-6272b4b66a2c55ba7f7ffb6f38b20fa9.jpg?h=854&resize=1&w=640",
+			"plataform":"epic"},
+
+			{"name":"Superbrothers: Sword & Sworcery",
+			"tags":["Aventura", "Indie"],
+			"imgSrc":"https://cdn1.epicgames.com/1109b87f323946e5b7883d724e6a22ba/offer/EGS_SuperbrothersSwordSworceryEP_CapybaraGames_S2-1200x1600-75d7dffce97ee812f13411f608be1223.jpg?h=854&resize=1&w=640",
+			"plataform":"epic"},
+			
+			{"name":"From Orbit",
+			"tags":["Ação","Estrategia", "Indie"],
+			"imgSrc":"https://img.itch.zone/aW1nLzE3MDQyNjYucG5n/original/LBF7Uq.png",
+			"plataform":"itch"},
+			
+			{"name":"Sludge Life",
+			"tags":["Indie"],
+			"imgSrc":"https://static-cdn.jtvnw.net/ttv-boxart/Sludge%20Life.jpg",
+			"plataform":"epic"}
+		]
+	}, 
+	{
+		"gameCategory":"Grátis na Epic Games", 
+		"games":[
+			{"name":"20XX",
+			"tags":["Plataforma","Roguelite"],
+			"imgSrc":"https://cdn1.epicgames.com/4c7117cadb714722950338f02850fd8d/offer/EGS_20XX_Batterystaple_S2-1200x1600-3a59b647af6ca43a378eaf0fce7a8ff5.jpg?h=854&resize=1&w=640",
+			"plataform":"epic"},
+
+			{"name":"Barony",
+			"tags":["Roguelike", "Dungeon Crawler"],
+			"imgSrc":"https://cdn1.epicgames.com/b79cdb6e07ea4ce9a82c00a0fb079ca5/offer/EGS_Barony_TurningWheelLLC_S2-1200x1600-6272b4b66a2c55ba7f7ffb6f38b20fa9.jpg?h=854&resize=1&w=640",
+			"plataform":"epic"},
+
+			{"name":"Superbrothers: Sword & Sworcery",
+			"tags":["Aventura", "Indie"],
+			"imgSrc":"https://cdn1.epicgames.com/1109b87f323946e5b7883d724e6a22ba/offer/EGS_SuperbrothersSwordSworceryEP_CapybaraGames_S2-1200x1600-75d7dffce97ee812f13411f608be1223.jpg?h=854&resize=1&w=640",
+			"plataform":"epic"},
+			
+			{"name":"Sludge Life",
+			"tags":["Indie"],
+			"imgSrc":"https://static-cdn.jtvnw.net/ttv-boxart/Sludge%20Life.jpg",
+			"plataform":"epic"}
+		]
+	}
+
+]
